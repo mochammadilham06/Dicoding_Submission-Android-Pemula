@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                tools:src="@tools:sample/avatars" />
+            <TextView
+                android:id="@+id/tv_item_name"
+                style="@style/img_detail"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white"
+                android:background="#4D000000"
+                tools:text="@string/instrument_names"/>
+            <!--                android:drawableStart="@drawable/ic_collections_white_18dp" />-->
+        </FrameLayout>
+
+        <TextView
+            style="@style/detail_text.title"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/detail_title" />
+        <TextView
+            android:id="@+id/tv_item_detail"
+            style="@style/detail_text.context"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1"
+            tools:text="@string/detail"/>
+
+        <TextView
+            style="@style/detail_text.title"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/spesifikasi" />
+
+        <TableLayout
+            style="@style/detail_text.title"
+            android:layout_marginBottom="16dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/detail_text.contextTitle"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/bahan_title" />
+                <TextView
+                    android:id="@+id/tv_item_bahan"
+                    style="@style/detail_text.context"
+                    tools:text="@string/bahan" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/detail_text.contextTitle"
+                    android:text="@string/tahun_title" />
+                <TextView
+                    android:id="@+id/tv_item_tahun"
+                    style="@style/detail_text.context"
+                    tools:text="@string/tahun" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/detail_text.contextTitle"
+                    android:text="@string/jenis_title" />
+                <TextView
+                    android:id="@+id/tv_item_jenis"
+                    style="@style/detail_text.context"
+                    tools:text="@string/jenis"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Submission</string>
+    <string name="splashDetail">My Submission</string>
+    <string name="instrument_names">Nama Instrument</string>
+    <string name="detail">Ini Detail Deskripsi</string>
+    <string name="detail_title">Deskripsi</string>
+    <string name="jenis_title">Jenis</string>
+    <string name="jenis">Deskripsi Jenis</string>
+    <string name="bahan_title">Bahan</string>
+    <string name="bahan">Deskripsi Bahan</string>
+    <string name="tahun_title">Tahun Pembuatan</string>
+    <string name="tahun">Deskripsi Tahun Pembuatan</string>
+    <string name="list">Ubah tampilan List</string>
+    <string name="grid">Ubah tampilan Grid</string>
+    <string name="about">About</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="spesifikasi">Spesifikasi</string>
+    <string name="data_diri">Data Diri</string>
+    <string name="name">Nama</string>
+    <string name="myName">Mochammad Ilham Maulana</string>
+    <string name="email">Email</string>
+    <string name="myEmail">mochammadilhamz1006@gmail.com</string>
+
+</resources>
